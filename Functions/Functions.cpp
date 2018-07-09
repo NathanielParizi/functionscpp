@@ -57,12 +57,29 @@ void getSelection() {
 
 }
 
-int main() {
+int secretInt() {
+
+	return 7;
+}
+
+int doubleNum(int q) {
+
+	return q * 2;
+}
+
+int main() {  // calling function / driver class
 //case sensitive
 
 	showMenu();
 	getSelection();
 	getName();
+
+	cout << "Magic number: " << secretInt() << endl;
+	cout << "Enter a number and I will double it! " << flush;
+	int input2;
+	cin >> input2;
+	int coolNum = doubleNum(input2);
+	cout << "Your number  doubled: " << coolNum << endl;
 
 	return 0;
 }
