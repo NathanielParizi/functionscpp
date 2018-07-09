@@ -2,9 +2,10 @@
  * Functions.cpp
  *
  *  Created on: Jul 9, 2018
- *      Author: justi
+ *      Author: Nathaniel Parizi
  */
-// *********** C++ consists of extensions to the language C. In C++ we split the program up using classes
+// ***************************************************************************
+// C++ consists of extensions to the language C. In C++ we split the program up using classes
 // and class contain both data and functions. Methods are functions that are part of a class generally speaking.
 // It is common to use functions in a pure C++ program, even though they should belong to classes.
 // For starters we will have a code that outputs a menu.
@@ -62,6 +63,7 @@ int secretInt() {
 	return 7;
 }
 
+//Function Parameters**********************************
 int doubleNum(int q) {
 
 	return q * 2;
